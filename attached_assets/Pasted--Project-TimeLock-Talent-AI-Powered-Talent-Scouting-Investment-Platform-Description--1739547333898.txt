@@ -1,0 +1,86 @@
+### Project: TimeLock Talent - AI-Powered Talent Scouting & Investment Platform
+
+**Description:**  
+TimeLock Talent is a next-gen platform designed to revolutionize talent scouting and investment. Using **AI-powered ranking**, **blockchain tokenization**, and **transparent milestone tracking**, the platform allows **talents to tokenize their potential**, **investors to fund them**, and **all parties to track progress seamlessly**.
+
+---
+
+### Tech Stack:
+- **Frontend:** React + Vite + Tailwind CSS
+- **Backend:** Node.js + Express.js + MongoDB (Mongoose)
+- **Blockchain:** Solidity (ERC-20 token for Talent Tokens)
+- **Authentication:** JWT (JSON Web Token)
+- **State Management:** React Context API or Redux
+- **Web3 Integration:** MetaMask & WalletConnect (for token investments)
+
+---
+
+### Features Breakdown:
+🔹 **User Authentication**
+   - Register/Login system using JWT
+   - Role selection: **Talent / Investor / Admin**
+   - Secure password hashing (bcrypt)
+   - Authentication middleware for protected routes
+
+🔹 **Talent Profile Management**
+   - Talents can create a profile (Name, Skills, Experience, Portfolio)
+   - Set goals (e.g., "Become a top AI researcher in 2 years")
+   - Display current milestones (e.g., “Completed AI Certification”)
+   - Tokenized Funding: Issue **Talent Tokens** (ERC-20 on Ethereum)
+   - Investors can track progress and fund talents
+
+🔹 **Investor Dashboard**
+   - View investment portfolio (Purchased Talent Tokens)
+   - Track **ROI, milestones, and talent progress**
+   - See **top-ranked talents** based on AI-driven ranking
+   - Buy/Sell Talent Tokens via Web3 transactions
+
+🔹 **Marketplace**
+   - Advanced **search, sorting, filtering**
+   - Talent cards with **growth indicators, token value, investor count**
+   - AI-powered ranking of **top talents**
+   - Direct **investment option** (Buy Talent Tokens)
+
+🔹 **Web3 Integration**
+   - **MetaMask Login** for investors
+   - Wallet integration using Web3.js or Ethers.js
+   - Smart Contract: **Issue ERC-20 tokens** for talents
+   - Blockchain transactions for secure, transparent funding
+
+🔹 **Database (MongoDB)**
+   - **Users Collection:** Stores Talent & Investor data
+   - **TalentTokens Collection:** Stores token supply, transactions
+   - **Investments Collection:** Tracks funding milestones & progress
+
+🔹 **Routing**
+   - Home `/`
+   - Marketplace `/marketplace`
+   - Talent Dashboard `/talent`
+   - Investor Dashboard `/investor`
+   - Authentication `/login`, `/signup`
+
+🔹 **Additional Features**
+   - Responsive UI with **Dark Mode & Light Mode**
+   - **Real-time milestone tracking** (Investors get updates)
+   - **Secure CORS setup & API security**
+   - **Admin panel for user & investment management**
+
+---
+
+### **🔹 Expected Output from AI**
+1️⃣ **Generate a full React frontend with pre-designed pages**
+2️⃣ **Generate an Express.js backend with RESTful APIs for**
+   - Authentication
+   - Profile management
+   - Token transactions
+3️⃣ **Generate MongoDB schemas for**
+   - Users, Talent Tokens, Investments
+4️⃣ **Include Web3 wallet connection for blockchain integration**
+5️⃣ **Deployable project structure with frontend & backend connected**
+
+---
+
+🔹 **DO NOT generate dummy blockchain logic** (actual smart contract will be deployed separately on Remix IDE).  
+🔹 **DO NOT use Supabase or Firebase** (Only MongoDB for backend).  
+🔹 **Ensure React frontend fetches data from backend API via Axios**.  
+
